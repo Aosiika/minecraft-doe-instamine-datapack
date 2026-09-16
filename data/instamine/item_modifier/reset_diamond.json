@@ -1,0 +1,17 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "!minecraft:custom_data": {},
+    "minecraft:tool": {
+      "default_mining_speed": 1.0,
+      "damage_per_block": 1,
+      "rules": [
+        {
+          "blocks": "#minecraft:mineable/pickaxe",
+          "speed": 8.0,
+          "correct_for_drops": true
+        }
+      ]
+    }
+  }
+}

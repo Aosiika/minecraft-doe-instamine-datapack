@@ -1,0 +1,53 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "weapon.mainhand": {
+            "items": [
+              "minecraft:diamond_pickaxe",
+              "minecraft:netherite_pickaxe"
+            ],
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:efficiency",
+                  "levels": {
+                    "min": 5
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "minecraft:diamond_pickaxe",
+              "minecraft:netherite_pickaxe"
+            ],
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:efficiency",
+                  "levels": {
+                    "min": 5
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

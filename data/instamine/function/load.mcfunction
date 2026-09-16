@@ -1,0 +1,3 @@
+# D-O-E InstaMine - Initialization
+
+tellraw @a ["",{"text":"\n[","color":"dark_gray"},{"text":"✦ D-O-E InstaMine","color":"gold","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Activado y funcionando correctamente.\n","color":"green"},{"text":"⛏ Minado instantáneo para ","color":"gray"},{"text":"Deepslate, Obsidian & End Stone\n","color":"white","bold":true},{"text":"➤ Repositorio: ","color":"yellow"},{"text":"github.com/Aosiika/minecraft-doe-instamine-datapack\n","color":"aqua","underlined":true,"clickEvent":{"action":"open_url","value":"https://github.com/Aosiika/minecraft-doe-instamine-datapack"},"hoverEvent":{"action":"show_text","contents":{"text":"Haz clic para abrir el repositorio en GitHub","color":"gold"}}}]
