@@ -9,12 +9,7 @@
       "damage_per_block": 1,
       "rules": [
         {
-          "blocks": [
-            "minecraft:obsidian",
-            "minecraft:deepslate",
-            "minecraft:end_stone",
-            "#instamine:instamine_blocks"
-          ],
+          "blocks": "#instamine:instamine_blocks",
           "speed": 2500.0,
           "correct_for_drops": true
         },

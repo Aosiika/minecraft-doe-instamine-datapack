@@ -29,30 +29,6 @@
       "type": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "slots": {
-          "weapon.mainhand": {
-            "items": [
-              "minecraft:diamond_pickaxe",
-              "minecraft:netherite_pickaxe"
-            ],
-            "predicates": {
-              "minecraft:enchantments": [
-                {
-                  "enchantment": "minecraft:efficiency",
-                  "levels": {
-                    "min": 5
-                  }
-                }
-              ]
-            }
-          }
-        }
-      }
-    },
-    {
-      "type": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
         "equipment": {
           "mainhand": {
             "items": [
@@ -83,16 +59,14 @@
               "minecraft:diamond_pickaxe",
               "minecraft:netherite_pickaxe"
             ],
-            "predicates": {
-              "minecraft:enchantments": [
-                {
-                  "enchantment": "minecraft:efficiency",
-                  "levels": {
-                    "min": 5
-                  }
+            "enchantments": [
+              {
+                "enchantment": "minecraft:efficiency",
+                "levels": {
+                  "min": 5
                 }
-              ]
-            }
+              }
+            ]
           }
         }
       }
