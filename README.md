@@ -1,84 +1,80 @@
-# ⛏️ D-O-E InstaMine
+# D-O-E InstaMine
 
-Datapack para Minecraft 1.21+ que permite picar al instante (**instamine**) tres de los bloques más duros del juego:
-- **D**eepslate (Pizarra profunda)
-- **O**bsidian (Obsidiana)
-- **E**nd Stone (Piedra del End)
+Datapack para Minecraft que permite picar al instante (instamine) tres de los bloques mas duros del juego:
+- Deepslate (Pizarra profunda)
+- Obsidian (Obsidiana)
+- End Stone (Piedra del End)
 
----
-
-## 🌐 Idioma / Language
-- [Español](#-español)
-- [English](#-english)
+Rama: Minecraft 1.21 - 1.21.4
 
 ---
 
-## 🇪🇸 Español
+## Idioma / Language
+- [Espanol](#espanol)
+- [English](#english)
 
-### ¿Qué hace este datapack?
-En Minecraft vanilla, la pizarra profunda, la obsidiana y la piedra del End tardan bastante en romperse incluso con el mejor equipo. Este datapack hace que puedas picarlos **al instante** (1 tick) simplemente manteniendo pulsado el clic izquierdo, exactamente igual que cuando picas piedra normal con Prisa II.
+---
+
+## Espanol
+
+### Que hace este datapack
+Permite minar de forma instantanea Deepslate, Obsidian y End Stone manteniendo pulsado el clic izquierdo, con la misma mecanica natural que al picar piedra con Prisa II.
 
 ### Requisitos
-Para que el minado instantáneo se active necesitas:
-1. Llevar en la mano principal un **Pico de Diamante** o de **Netherite** con **Eficiencia V** (es 100% compatible con Toque de Seda, Fortuna, Irrompibilidad y Reparación).
-2. Tener activo el efecto **Prisa II (Haste II)** (con un Faro/Beacon al máximo o por comando).
+1. Pico de Diamante o Netherite con Eficiencia V en la mano principal (compatible con Fortuna, Toque de Seda, Irrompibilidad y Reparacion).
+2. Efecto Prisa II (Haste II) activo.
 
-Si se te termina el efecto de Prisa II o cambias a otra herramienta, el pico vuelve automáticamente a su velocidad normal de siempre.
+Al perder el efecto o cambiar de herramienta, el pico regresa a su velocidad normal de forma automatica.
 
-### Cómo instalar el Datapack
+### Instalacion
 
-#### En un mundo individual:
-1. Descarga el archivo `.zip` del datapack desde la sección de **Releases** de este repositorio.
-2. Abre Minecraft, selecciona tu mundo y pulsa en **Editar** > **Abrir carpeta del mundo**.
-3. Entra en la carpeta llamada `datapacks`.
-4. Pega ahí dentro el archivo `.zip` (o la carpeta descomprimida).
-5. Entra a tu mundo. Si ya estabas jugando, simplemente escribe `/reload` en el chat.
-6. Verás un mensaje en el chat confirmando que **D-O-E InstaMine** está funcionando.
+Mundo individual:
+1. Descarga el archivo zip desde la seccion de Releases (version 1.0.0).
+2. En Minecraft, selecciona tu mundo y pulsa en Editar > Abrir carpeta del mundo.
+3. Coloca el archivo zip dentro de la carpeta datapacks.
+4. Entra al mundo o escribe /reload si ya estabas dentro.
 
-#### En un servidor:
-1. Entra a los archivos de tu servidor.
-2. Abre la carpeta de tu mundo (por defecto se llama `world`).
-3. Entra en la carpeta `datapacks` y coloca el archivo `.zip` ahí.
-4. Escribe `/reload` en la consola del servidor o reinicia el servidor.
+Servidor:
+1. Coloca el archivo zip dentro de la carpeta world/datapacks/ de tu servidor.
+2. Ejecuta /reload en la consola o reinicia el servidor.
 
-### Prueba rápida en el juego
-Si quieres probarlo al momento en creativo:
-- Darte Prisa II: `/effect give @s minecraft:haste infinite 1`
-- Darte el pico: `/give @s diamond_pickaxe[enchantments={"minecraft:efficiency":5}]`
-- Comprobar si cumples todo: `/function instamine:debug`
+### Comprobacion en el juego
+Puedes comprobar si cumples todas las condiciones ejecutando en el chat:
+```mcfunction
+/function instamine:debug
+```
+
+Compatibilidad: Minecraft 1.21 a 1.21.4
 
 ---
 
-## 🇬🇧 English
+## English
 
-### What does this datapack do?
-In vanilla Minecraft, Deepslate, Obsidian, and End Stone cannot be instamined even with the best tools. This datapack allows you to **instant-mine** all three blocks by simply holding down left-click, just like mining regular stone with Haste II.
+### What does this datapack do
+Allows you to instantly mine Deepslate, Obsidian, and End Stone by holding left-click, using the same natural mechanic as mining stone with Haste II.
 
 ### Requirements
-To trigger instant mining, you need:
-1. A **Diamond** or **Netherite Pickaxe** with **Efficiency V** in your main hand (fully compatible with Silk Touch, Fortune, Unbreaking, and Mending).
-2. The **Haste II** status effect active (from a max-tier Beacon or commands).
+1. Diamond or Netherite Pickaxe with Efficiency V in your main hand (compatible with Fortune, Silk Touch, Unbreaking, and Mending).
+2. Active Haste II effect.
 
-Whenever Haste II runs out or you switch tools, your pickaxe automatically returns to its standard vanilla speed.
+When the effect ends or you switch tools, the pickaxe automatically returns to standard speed.
 
-### How to Install
+### Installation
 
-#### Singleplayer:
-1. Download the `.zip` file from the **Releases** section of this repository.
-2. Open Minecraft, select your world, and click **Edit** > **Open World Folder**.
-3. Open the `datapacks` folder.
-4. Place the downloaded `.zip` file (or the unzipped folder) inside.
-5. Join your world (or type `/reload` in chat if you are already in-game).
-6. A message in chat will confirm that **D-O-E InstaMine** is loaded and active.
+Singleplayer:
+1. Download the zip file from the Releases section (version 1.0.0).
+2. In Minecraft, select your world and click Edit > Open World Folder.
+3. Place the zip file inside the datapacks folder.
+4. Open the world or type /reload if you are already in-game.
 
-#### Server:
-1. Access your server's root directory.
-2. Open your world folder (usually named `world`).
-3. Go into the `datapacks` folder and drop the `.zip` file inside.
-4. Run `/reload` in the server console or restart the server.
+Server:
+1. Place the zip file inside your server's world/datapacks/ folder.
+2. Run /reload in the console or restart the server.
 
-### Quick Test
-To quickly test it in-game:
-- Get Haste II: `/effect give @s minecraft:haste infinite 1`
-- Get the pickaxe: `/give @s diamond_pickaxe[enchantments={"minecraft:efficiency":5}]`
-- Check your status: `/function instamine:debug`
+### In-game Check
+Check whether all conditions are met by running:
+```mcfunction
+/function instamine:debug
+```
+
+Compatibility: Minecraft 1.21 to 1.21.4
