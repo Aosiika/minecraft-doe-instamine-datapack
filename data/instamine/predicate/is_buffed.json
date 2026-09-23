@@ -9,7 +9,7 @@
           "weapon.mainhand": {
             "predicates": {
               "minecraft:custom_data": {
-                "instamine": true
+                "instamine": 2
               }
             }
           }
@@ -24,7 +24,7 @@
           "mainhand": {
             "predicates": {
               "minecraft:custom_data": {
-                "instamine": true
+                "instamine": 2
               }
             }
           }

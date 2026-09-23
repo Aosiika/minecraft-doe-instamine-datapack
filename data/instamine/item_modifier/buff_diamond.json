@@ -2,15 +2,20 @@
   "type": "minecraft:set_components",
   "components": {
     "minecraft:custom_data": {
-      "instamine": true
+      "instamine": 2
     },
     "minecraft:tool": {
       "default_mining_speed": 1.0,
       "damage_per_block": 1,
       "rules": [
         {
-          "blocks": "#instamine:instamine_blocks",
-          "speed": 2500.0,
+          "blocks": [
+            "minecraft:obsidian",
+            "minecraft:deepslate",
+            "minecraft:end_stone",
+            "minecraft:cobbled_deepslate"
+          ],
+          "speed": 3000.0,
           "correct_for_drops": true
         },
         {
