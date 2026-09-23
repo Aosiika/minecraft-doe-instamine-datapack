@@ -5,7 +5,7 @@ Datapack para Minecraft que permite picar al instante (instamine) tres de los bl
 - Obsidian (Obsidiana)
 - End Stone (Piedra del End)
 
-Rama: Minecraft 1.21 - 1.21.4
+Rama: Minecraft 1.21 - 26.1.2
 
 ---
 
@@ -44,7 +44,7 @@ Puedes comprobar si cumples todas las condiciones ejecutando en el chat:
 /function instamine:debug
 ```
 
-Compatibilidad: Minecraft 1.21 a 1.21.4
+Compatibilidad: Minecraft 1.21 hasta 26.1.2
 
 ---
 
@@ -77,4 +77,4 @@ Check whether all conditions are met by running:
 /function instamine:debug
 ```
 
-Compatibility: Minecraft 1.21 to 1.21.4
+Compatibility: Minecraft 1.21 to 26.1.2
