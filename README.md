@@ -5,7 +5,7 @@ Datapack para Minecraft que permite picar al instante (instamine) tres de los bl
 - Obsidian (Obsidiana)
 - End Stone (Piedra del End)
 
-Rama: Minecraft 26.3
+Rama: Minecraft 26.3 en adelante
 
 ---
 
@@ -29,7 +29,7 @@ Al perder el efecto o cambiar de herramienta, el pico regresa a su velocidad nor
 ### Instalacion
 
 Mundo individual:
-1. Descarga el archivo zip desde la seccion de Releases de esta rama (version 26.3).
+1. Descarga el archivo zip desde la seccion de Releases de esta rama (version 26.3 en adelante).
 2. En Minecraft, selecciona tu mundo y pulsa en Editar > Abrir carpeta del mundo.
 3. Coloca el archivo zip dentro de la carpeta datapacks.
 4. Entra al mundo o escribe /reload si ya estabas dentro.
@@ -44,7 +44,7 @@ Puedes comprobar si cumples todas las condiciones ejecutando en el chat:
 /function instamine:debug
 ```
 
-Compatibilidad: Minecraft 26.3
+Compatibilidad: Minecraft 26.3 en adelante
 
 ---
 
@@ -62,7 +62,7 @@ When the effect ends or you switch tools, the pickaxe automatically returns to s
 ### Installation
 
 Singleplayer:
-1. Download the zip file from the Releases section for this branch (version 26.3).
+1. Download the zip file from the Releases section for this branch (version 26.3 and newer).
 2. In Minecraft, select your world and click Edit > Open World Folder.
 3. Place the zip file inside the datapacks folder.
 4. Open the world or type /reload if you are already in-game.
@@ -77,4 +77,4 @@ Check whether all conditions are met by running:
 /function instamine:debug
 ```
 
-Compatibility: Minecraft 26.3
+Compatibility: Minecraft 26.3 and newer
