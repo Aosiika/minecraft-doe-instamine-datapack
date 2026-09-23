@@ -1,7 +1,7 @@
 {
   "pack": {
-    "pack_format": 61,
-    "supported_formats": { "min_inclusive": 48, "max_inclusive": 100 },
+    "pack_format": 121,
+    "supported_formats": { "min_inclusive": 48, "max_inclusive": 150 },
     "description": "§6✦ InstaMine §7| §fObsidian · Deepslate · End Stone\n§8Efficiency V + Haste II required"
   }
 }

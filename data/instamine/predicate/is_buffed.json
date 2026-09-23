@@ -1,15 +1,35 @@
 {
-  "type": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "slots": {
-      "weapon.mainhand": {
-        "predicates": {
-          "minecraft:custom_data": {
-            "instamine": true
+  "type": "minecraft:any_of",
+  "terms": [
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "weapon.mainhand": {
+            "predicates": {
+              "minecraft:custom_data": {
+                "instamine": true
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "predicates": {
+              "minecraft:custom_data": {
+                "instamine": true
+              }
+            }
           }
         }
       }
     }
-  }
+  ]
 }
