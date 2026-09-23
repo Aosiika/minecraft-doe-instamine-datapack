@@ -1,50 +1,13 @@
 {
-  "type": "minecraft:any_of",
-  "terms": [
-    {
-      "type": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "effects": {
-          "contains": [
-            {
-              "minecraft:haste": {
-                "amplifier": {
-                  "min": 1
-                }
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "type": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "effects": {
-          "test": {
-            "minecraft:haste": {
-              "amplifier": {
-                "min": 1
-              }
-            }
-          }
-        }
-      }
-    },
-    {
-      "type": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "effects": {
-          "minecraft:haste": {
-            "amplifier": {
-              "min": 1
-            }
-          }
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "effects": {
+      "minecraft:haste": {
+        "amplifier": {
+          "min": 1
         }
       }
     }
-  ]
+  }
 }
